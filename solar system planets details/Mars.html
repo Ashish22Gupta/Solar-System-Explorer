@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mars - The Red Planet</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+    }
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .container img {
+      width: 45%;
+      border-radius: 8px;
+    }
+    .img-container{
+    width: 100%;
+    background-color: black;
+    padding: 2dvh 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    }
+    .container h1, .container h2, .container h3 {
+      text-align: center;
+      color: #d84b16;
+    }
+    .container p {
+      line-height: 1.6;
+      font-size: 1.1em;
+      color: #333;
+    }
+    .container ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .container ul li {
+      margin-bottom: 10px;
+    }
+    .container .fact {
+      background-color: #e8f4f8;
+      padding: 10px;
+      border-left: 5px solid #0077cc;
+      margin-bottom: 20px;
+    }
+    .agency {
+      background-color: #fff8e1;
+      padding: 10px;
+      border-left: 5px solid #ff9800;
+      margin-bottom: 15px;
+    }
+    .agency h3 {
+      margin-top: 0;
+      color: #ff5722;
+    }
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 600px) {
+      .container {
+        margin: 10px;
+        padding: 15px;
+      }
+      .container h1 {
+        font-size: 1.5em;
+      }
+      .container p, .container ul li {
+        font-size: 1em;
+      }
+    }
+
+    .moon-section {
+  margin-top: 30px;
+}
+.moon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+.moon img {
+  width: 250px;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+.moon-text {
+  flex: 1;
+  min-width: 250px;
+}
+.moon h3 {
+  margin-top: 0;
+  color: #d84b16;
+}
+@media (max-width: 768px) {
+  .moon {
+    flex-direction: column;
+    text-align: center;
+  }
+  .moon img {
+    width: 100%;
+  }
+  .phobos{
+    flex-direction: column-reverse;
+  }
+}
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="img-container"><img src="../images/mars.jpeg" alt="Mars - The Red Planet"></div>
+    <h1>Mars - The Red Planet</h1>
+    <p>Mars is the fourth planet from the Sun and is often called the "Red Planet" due to its reddish appearance, which is caused by iron oxide (rust) on its surface.</p>
+
+    <h2>Key Facts about Mars</h2>
+    <ul>
+      <li><strong>Diameter:</strong> Approximately 6,779 km</li>
+      <li><strong>Mass:</strong> About 0.107 times that of Earth</li>
+      <li><strong>Surface Area:</strong> Roughly 28% of Earth's surface area</li>
+      <li><strong>Atmosphere:</strong> Composed mainly of carbon dioxide (95.97%), with traces of nitrogen and argon</li>
+      <li><strong>Moons:</strong> Two small moons, Phobos and Deimos</li>
+      <li><strong>Gravity:</strong> About 38% of Earth's gravity</li>
+      <li><strong>Day Length:</strong> A Martian day (sol) is approximately 24.6 hours</li>
+      <li><strong>Year Length:</strong> A Martian year is about 687 Earth days</li>
+    </ul>
+
+    <div class="agency">
+      <h3>ISRO (Indian Space Research Organisation)</h3>
+      <p>India's <strong>Mangalyaan (Mars Orbiter Mission)</strong> made ISRO the first Asian agency to reach Mars orbit successfully. It studied Martian surface and atmosphere and took stunning full-disk images of Mars.</p>
+    </div>
+
+    <div class="agency">
+      <h3>NASA (USA)</h3>
+      <p>NASA's <strong>Perseverance</strong> and <strong>Curiosity</strong> rovers have been exploring the Martian surface, analyzing soil samples and looking for signs of past microbial life. Discoveries like the Cheyava Falls rock containing organic molecules suggest Mars might once have supported life.</p>
+    </div>
+
+    <div class="agency">
+      <h3>ESA (European Space Agency)</h3>
+      <p>ESA's <strong>ExoMars Trace Gas Orbiter</strong> studies atmospheric gases like methane, which might indicate biological or geological activity. The mission also works with Roscosmos to search for subsurface water.</p>
+    </div>
+
+    <div class="agency">
+      <h3>Roscosmos (Russia)</h3>
+      <p>Russia has a long history with Mars missions. Though early attempts had mixed success, it now collaborates on missions like <strong>ExoMars</strong> with ESA to explore subsurface environments and plan for future Mars landers.</p>
+    </div>
+
+    <div class="agency">
+      <h3>CNSA (China National Space Administration)</h3>
+      <p>China's <strong>Tianwen-1</strong> mission made a major leap by sending both an orbiter and a lander (with the <strong>Zhurong rover</strong>) in 2021. The rover is actively exploring the Utopia Planitia region, studying soil, climate, and magnetic fields.</p>
+    </div>
+
+    <div class="agency">
+      <h3>JAXA (Japan Aerospace Exploration Agency)</h3>
+      <p>While JAXA has not yet landed a rover on Mars, it contributes to international collaborations and is planning future missions related to Martian moons (Phobos and Deimos) under its <strong>MMX (Martian Moons eXploration)</strong> project.</p>
+    </div>
+
+        <!-- Existing content continues above... -->
+
+    <div class="moon-section">
+      <div class="moon deimos">
+        <img src="./images/deimos.jpeg" alt="Deimos">
+        <div class="moon-text">
+          <h3>Deimos – The Smaller Martian Moon</h3>
+          <p>Deimos is the smaller and outermost of Mars’ two moons. It is only about 12 km in diameter and is covered in a thick layer of dust. Deimos has a smoother appearance than Phobos and orbits Mars approximately every 30 hours. Scientists believe it may be a captured asteroid from the outer asteroid belt.</p>
+        </div>
+      </div>
+
+      <div class="moon phobos">
+        <div class="moon-text">
+          <h3>Phobos – The Closer Martian Moon</h3>
+          <p>Phobos is the larger and closer of the two Martian moons, with a diameter of about 22 km. It orbits Mars in just 7.6 hours — faster than Mars rotates. Phobos is heavily cratered and is slowly spiraling toward Mars. It is expected to either crash into the planet or break apart into a ring in the next 50 million years.</p>
+        </div>
+        <img src="./images/phobos.jpeg" alt="Phobos">
+      </div>
+    </div>
+
+
+    <p>For more information, visit 
+      <a href="https://en.wikipedia.org/wiki/Mars" target="_blank">Wikipedia - Mars</a>, 
+      <a href="https://mars.nasa.gov/" target="_blank">NASA's Mars Exploration Program</a>, 
+      <a href="https://www.isro.gov.in/Mars.html" target="_blank">ISRO Mangalyaan</a>, 
+      <a href="https://www.esa.int/Science_Exploration/Space_Science/ExoMars" target="_blank">ESA ExoMars</a>, 
+      and <a href="https://www.cnsa.gov.cn/" target="_blank">CNSA Tianwen-1</a>.
+    </p>
+  </div>
+
+</body>
+</html>
