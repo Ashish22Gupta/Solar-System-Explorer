@@ -22,6 +22,6 @@
 3. **Toggle orbits** using the checkbox in the top-left corner.  
 
 ## 🪐 About the Developer
-**👨‍💻 Ashish Gupta**
-**GitHub: Ashish22Gupta**
-**Inspired by astronomy and interactive web design.**
+- **👨‍💻 Ashish Gupta**
+- **GitHub: Ashish22Gupta**
+- **Inspired by astronomy and interactive web design.**
